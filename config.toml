@@ -1,4 +1,4 @@
-baseURL = 'http://jamescarr.github.io/blog'
+baseURL = 'http://jamescarr.github.io/blog/'
 languageCode = 'en-us'
 title = 'James Carr'
 theme = 'gokarna'
