@@ -41,6 +41,10 @@ enableRobotsTXT = true
 
 [params]
   avatarURL = "/images/avatar.jpg"
+  description = "Hi! James Carr here, engineering leader who is passionate about building and enabling happy, successful teams." 
+
+  
+
   socialIcons = [
       {name = "mastodon", url = "https://mastodon.sdf.org/@jamescarr"},
       {name = "linkedin", url = "https://www.linkedin.com/in/jamesfreakincarr/"},
