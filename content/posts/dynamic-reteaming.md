@@ -4,7 +4,7 @@ date: 2023-01-01
 description: ''
 image: '/images/dynamic-reteaming.jpg'
 type: 'post'
-tags: []
+tags: ['book-review', 'team-building']
 ---
 
 ![Book Cover](/images/dynamic-reteaming.jpg#floatleft)
