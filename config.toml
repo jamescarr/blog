@@ -1,10 +1,11 @@
-baseURL = 'https://jamescarr.github.io/blog'
+baseURL = 'https://jamescarr.github.io'
 languageCode = 'en-us'
 title = 'James Carr'
 theme = 'gokarna'
 
 # Automatically generate robots.txt
 enableRobotsTXT = true
+
 
 [menu]
   [[menu.main]]
@@ -31,6 +32,12 @@ enableRobotsTXT = true
     url = "/tags/"
     weight = 2
 
+  [[menu.main]]
+    identifier = "rss"
+    url = "/index.xml"
+    weight = 3
+    # Using feather-icons
+    pre = "<span data-feather='rss'></span>"
 
 [params]
   avatarURL = "/images/avatar.jpg"
@@ -41,3 +48,6 @@ enableRobotsTXT = true
       {name = "instagram", url = "https://www.instagram.com/jamescarr99/"},
       {name = "gmail", url = "mailto:james.r.carr+blog@gmail.com"},
     ]
+
+  # add custom html for css
+  customHeadHTML = '<link rel="stylesheet" type="text/css" href="/css/blog-post.css">'
